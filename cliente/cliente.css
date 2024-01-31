@@ -1,0 +1,41 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input, button {
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#mensajesContainer, #mensajesPrivadosContainer {
+  max-height: 300px;
+  overflow-y: auto;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 5px 0;
+}
